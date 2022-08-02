@@ -1,0 +1,70 @@
+body{
+	background-color:darkcyan;
+	color: white;
+}
+a{
+	text-decoration: none;
+}
+
+.profile{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: url(./Images/moi.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	margin-top: 80px;
+	border: 10px solid black;
+}
+
+.bio{
+	width: 85%;
+	max-width: 768px;
+	margin: auto;
+	text-align: center;
+	color: #b5b5b5;
+}
+
+.social{
+	justify-content: center;
+	display: flex;
+}
+
+.social-icon{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: rgb(247, 174, 28);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	margin: 10px;
+	color: #fff;
+}
+
+.port-img{
+	width: 100%;
+	height: 350px;
+	background: #ccc;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.port-card{
+    background: #222;
+    border-radius: 30px;
+}
+
+footer{
+    width: 100%;
+    background: #222;
+    color: #b5b5b5;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 12px;
+}
